@@ -21,7 +21,8 @@
  ##### QR코드 스캔 :
        액티비티를 생성하고, onCreate()로 스캔 뒤 결과를 가져온다. 
        이 액티비티에 진입하면 곧바로 스캔모드가 활성화되게 된다.
-       QR코드 화면을 커스텀하고 싶다면 액티비티를 생성하고 원하는 위치에 TextView따위를 넣은 다음              initiateScan()전에 
+       QR코드 화면을 커스텀하고 싶다면 액티비티를 생성하고 원하는 위치에 TextView따위를 넣은 다음
+       initiateScan()전에 
        /* qrScan = new IntentIntegrator(this);
         qrScan.setPrompt("아래 띄울 문구");
         qrScan.initiateScan();*/
